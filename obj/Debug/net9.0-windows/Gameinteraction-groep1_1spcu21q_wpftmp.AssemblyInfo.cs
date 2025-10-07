@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gameinteraction-groep1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04a4191774330611923b5706804a491417f08b23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gameinteraction-groep1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gameinteraction-groep1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
