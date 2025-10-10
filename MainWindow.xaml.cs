@@ -29,6 +29,7 @@ namespace Gameinteraction_groep1
                 {
                     DragDrop.DoDragDrop(image, image, DragDropEffects.Move);
                 }
+            // Anouk: Hier if statement maken voor blokken
             }
         }
 
@@ -56,6 +57,9 @@ namespace Gameinteraction_groep1
                 Grid.SetColumn(target, sourceCol);
             }
         }
+    // Nieuwe methode voor timer
+    // Nieuwe methode voor als je klaar bent
+    // Als je tijd over hebt dan Randomizer methode toevoegen
     }
 }
 

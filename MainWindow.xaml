@@ -18,7 +18,7 @@
             <RowDefinition Height="100" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Grid.Column="1">
-            <Label FontSize="72" HorizontalAlignment="Center">00:00</Label>
+            <Label x:Name="Timer" Content="00:00" FontSize="72" HorizontalAlignment="Center"></Label>
         </Grid>
         <Grid ShowGridLines="True" Grid.Row="1" Grid.Column="1">
             <Grid.RowDefinitions>
