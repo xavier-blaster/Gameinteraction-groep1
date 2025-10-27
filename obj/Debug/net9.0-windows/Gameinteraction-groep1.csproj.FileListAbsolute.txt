@@ -1,0 +1,8 @@
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\DifficultyWindow.baml
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\ScoreboardWindow.baml
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\DifficultyWindow.g.cs
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\ScoreboardWindow.g.cs
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\Gameinteraction-groep1_MarkupCompile.cache
+C:\Users\yekai\Source\Repos\Gameinteraction-groep1\obj\Debug\net9.0-windows\Gameinteraction-groep1_MarkupCompile.lref
