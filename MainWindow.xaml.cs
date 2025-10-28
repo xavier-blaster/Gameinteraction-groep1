@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using PuzzelGame;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,25 +12,44 @@ using System.Windows.Shapes;
 
 namespace PuzzelGame
 {
-    public partial class Main : Window
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    /// 
+    
+
+
+    public partial class MainWindow : Window
     {
-        public Main()
+        public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void Start_Click(object sender, RoutedEventArgs e)
+            scoreknop.Click += scoreknopmethode;
+            uitlegknop.Click += uitlegknopmethode;
+
+        }
+        private void scoreknopmethode(object sender, RoutedEventArgs e)    // scoreknopmethode
         {
-            DifficultyWindow DifficultyWindow = new DifficultyWindow();
-            DifficultyWindow.Show();
+            ScoreboardWindow terugnaarscore = new ScoreboardWindow();
+            terugnaarscore.Show();
             this.Close();
         }
 
-        private void Scoreboard_Click(object sender, RoutedEventArgs e)
+
+        private void uitlegknopmethode(object sender, RoutedEventArgs e)    // uitlegknopmethode
         {
-            ScoreboardWindow ScoreboardWindow = new ScoreboardWindow();
-            ScoreboardWindow.Show();
+            HowToPlay terugnaaruitleg = new HowToPlay();
+            terugnaaruitleg.Show();
             this.Close();
         }
+
+        private void Play_Click(object sender, MouseButtonEventArgs e)
+        {
+            DifficultyWindow window = new DifficultyWindow();
+            window.Show(); // lowercase 'w'
+            this.Close();  // closes Startscherm
+        }
+
     }
 }

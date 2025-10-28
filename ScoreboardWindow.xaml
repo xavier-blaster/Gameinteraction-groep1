@@ -94,7 +94,6 @@
              Margin="0,0,15,15">
 
             <Button x:Name="homeknop" Content="🏠" Width="30" Height="30" Margin="5"  />
-            <Button x:Name="scoreknop" Content="📊" Width="30" Height="30" Margin="5" />
             <Button x:Name="uitlegknop" Content="?" Width="30" Height="30" Margin="5" />
         </StackPanel>
     </Grid>
