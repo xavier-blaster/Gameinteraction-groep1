@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|c:\\users\\xavie\\source\\repos\\gameinteraction-groep1b\\howtoplay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|solutionrelative:howtoplay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|c:\\users\\xavie\\source\\repos\\gameinteraction-groep1b\\difficultywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|solutionrelative:difficultywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|c:\\users\\xavie\\source\\repos\\gameinteraction-groep1b\\game3x3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|solutionrelative:game3x3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|c:\\users\\xavie\\source\\repos\\gameinteraction-groep1b\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67E1FB5A-3B99-472A-807A-CB001F48C633}|PuzzelGame.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DifficultyWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\DifficultyWindow.xaml",
+              "RelativeDocumentMoniker": "DifficultyWindow.xaml",
+              "ToolTip": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\DifficultyWindow.xaml",
+              "RelativeToolTip": "DifficultyWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:13:49.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "game3x3.xaml",
+              "DocumentMoniker": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\game3x3.xaml",
+              "RelativeDocumentMoniker": "game3x3.xaml",
+              "ToolTip": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\game3x3.xaml",
+              "RelativeToolTip": "game3x3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:13:46.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:12:53.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HowToPlay.xaml",
+              "DocumentMoniker": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\HowToPlay.xaml",
+              "RelativeDocumentMoniker": "HowToPlay.xaml",
+              "ToolTip": "C:\\Users\\xavie\\source\\repos\\Gameinteraction-groep1b\\HowToPlay.xaml*",
+              "RelativeToolTip": "HowToPlay.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T13:12:28.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

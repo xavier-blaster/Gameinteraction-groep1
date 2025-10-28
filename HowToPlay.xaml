@@ -42,8 +42,8 @@
                         Canvas.Left="693" 
                         Canvas.Top="370">
 
-                <Button x:Name="homeknop" Content="??" Width="30" Height="30" Margin="5"  />
-                <Button x:Name="scoreknop" Content="??" Width="30" Height="30" Margin="5" />
+                <Button x:Name="homeknop" Content="🏠" Width="30" Height="30" Margin="5"  />
+                <Button x:Name="scoreknop" Content="📊" Width="30" Height="30" Margin="5" />
 
             </StackPanel>
         </Canvas>
