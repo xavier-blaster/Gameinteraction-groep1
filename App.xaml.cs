@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Gameinteraction_groep1
+namespace PuzzelGame
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -1,4 +1,4 @@
-﻿<Window x:Class="Gameinteraction_groep1.DifficultyWindow"
+﻿<Window x:Class="PuzzelGame.DifficultyWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Kies moeilijkheid" Height="450" Width="800" Background="#F4C99B">
@@ -16,7 +16,7 @@
         <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Bottom"
-                    Margin="0,0,0,150">               
+                    Margin="0,0,0,150">
 
             <Button x:Name="knop3x3" Content="3 x 3"
                     Width="120" Height="60"
@@ -34,7 +34,7 @@
 
 
         </StackPanel>
-        
+
         <!--onderbalk met iconknoppen-->
         <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Right"
