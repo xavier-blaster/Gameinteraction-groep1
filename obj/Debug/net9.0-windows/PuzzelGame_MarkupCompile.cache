@@ -1,5 +1,5 @@
 ﻿PuzzelGame
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\Administrator\Gameinteraction-groep1\App.xaml
 4-1965394723
 
-91793854882
+7-916206431
 200-44685031
 DifficultyWindow.xaml;game3x3.xaml;MainWindow.xaml;ScoreboardWindow.xaml;
 
