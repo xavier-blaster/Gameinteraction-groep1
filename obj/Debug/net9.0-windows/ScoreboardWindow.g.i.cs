@@ -100,7 +100,7 @@ namespace PuzzelGame {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PuzzelGame;component/scoreboardwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PuzzelGame;V1.0.0.0;component/scoreboardwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ScoreboardWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -65,29 +65,42 @@ namespace PuzzelGame
             }
         }
 
+        private Image GetImageAt(int row, int col)
+        {
+            foreach (var child in PuzzleGrid.Children)
+            {
+                if (child is Image SortImages)
+                {
+                    if (Grid.GetRow(SortImages) == row && Grid.GetColumn(SortImages) == col)
+                    {
+                        return SortImages;
+                    }
+                }
+            }
+            return null;
+        }
+
         private bool IsComplete()
         {
             string[] correctOrder = { "Image1", "Image2", "Image3", "Image4", "Image5", "Image6", "Image7", "Image8", "Image0" };
 
             int index = 0;
-
             for (int row = 0; row < 3; row++)
             {
                 for (int col = 0; col < 3; col++)
                 {
-                    var imageAtPosition = PuzzleGrid.Children
-                        .OfType<Image>()
-                        .FirstOrDefault(img => Grid.GetRow(img) == row && Grid.GetColumn(img) == col);
-
-                    if (imageAtPosition == null || imageAtPosition.Name != correctOrder[index])
+                    Image image = GetImageAt(row, col);
+                    if (image == null || image.Name != correctOrder[index])
+                    {
                         return false;
-
+                    }
                     index++;
                 }
             }
 
             return true;
         }
+
 
         private void Image_MouseMove(object sender, MouseEventArgs e)
         {
