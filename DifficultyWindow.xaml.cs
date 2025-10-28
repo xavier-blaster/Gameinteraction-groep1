@@ -28,9 +28,9 @@ namespace PuzzelGame
             //knop4x4.Click += knop4x4methode;
 
 
-            //homeknop.Click += homeknopmethode;
-            //scoreknop.Click += scoreknopmethode;
-            //uitlegknop.Click += uitlegknopmethode;
+            homeknop.Click += homeknopmethode;
+            scoreknop.Click += scoreknopmethode;
+            uitlegknop.Click += uitlegknopmethode;
 
         }
 
@@ -49,27 +49,27 @@ namespace PuzzelGame
         //}
 
 
-        //private void homeknopmethode(object sender, RoutedEventArgs e)    //homeknopmethode
-        //{
-        //    menuwindow terugnaarhome = new menuwindow;
-        //    terugnaarhome.Show();
-        //    this.Close();
-        //}
+        private void homeknopmethode(object sender, RoutedEventArgs e)    //homeknopmethode
+        {
+            MainWindow terugnaarhome = new MainWindow();
+            terugnaarhome.Show();
+            this.Close();
+        }
 
-        //private void scoreknopmethode(object sender, RoutedEventArgs e)    // scoreknopmethode
-        //{
-        //    scorewindow terugnaarscore = new scorewindow;
-        //    terugnaarscore.Show();
-        //    this.Close();
-        //}
+        private void scoreknopmethode(object sender, RoutedEventArgs e)    // scoreknopmethode
+        {
+            ScoreboardWindow terugnaarscore = new ScoreboardWindow();
+            terugnaarscore.Show();
+            this.Close();
+        }
 
 
-        //private void uitlegknopmethode(object sender, RoutedEventArgs e)    // uitlegknopmethode
-        //{
-        //    uitlegwindow terugnaaruitleg = new uitlegwindow;
-        //    terugnaaruitleg.Show();
-        //    this.Close();
-        //}
+        private void uitlegknopmethode(object sender, RoutedEventArgs e)    // uitlegknopmethode
+        {
+            HowToPlay terugnaaruitleg = new HowToPlay();
+            terugnaaruitleg.Show();
+            this.Close();
+        }
 
     }
 }
