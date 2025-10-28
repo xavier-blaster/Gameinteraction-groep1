@@ -18,10 +18,17 @@ namespace PuzzelGame
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Start_Click(object sender, RoutedEventArgs e)
         {
             DifficultyWindow DifficultyWindow = new DifficultyWindow();
             DifficultyWindow.Show();
+            this.Close();
+        }
+
+        private void Scoreboard_Click(object sender, RoutedEventArgs e)
+        {
+            ScoreboardWindow ScoreboardWindow = new ScoreboardWindow();
+            ScoreboardWindow.Show();
             this.Close();
         }
     }

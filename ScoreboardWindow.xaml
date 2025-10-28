@@ -1,4 +1,4 @@
-﻿<Window x:Class="Gameinteraction_groep1.ScoreboardWindow"
+﻿<Window x:Class="PuzzelGame.ScoreboardWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Scorebord"
@@ -67,7 +67,7 @@
             Margin="10,30,0,0" Grid.RowSpan="3">
 
 
-               <TextBlock x:Name="regel1"
+                <TextBlock x:Name="regel1"
                Text="03:10                      3x3                        27/10/2025"
                Foreground="White"
                Margin="0,2,0,2"/>
