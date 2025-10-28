@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <None Remove="Assets\0_number.bmp" />
+    <None Remove="Assets\10_number.bmp" />
+    <None Remove="Assets\11_number.bmp" />
+    <None Remove="Assets\12_number.bmp" />
+    <None Remove="Assets\14_number.bmp" />
+    <None Remove="Assets\15_number.bmp" />
     <None Remove="Assets\1_number.bmp" />
     <None Remove="Assets\2_number.bmp" />
     <None Remove="Assets\3_number.bmp" />
@@ -18,10 +23,16 @@
     <None Remove="Assets\6_number.bmp" />
     <None Remove="Assets\7_number.bmp" />
     <None Remove="Assets\8_number.bmp" />
+    <None Remove="Assets\9_number.bmp" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Assets\0_number.bmp" />
+    <Resource Include="Assets\10_number.bmp" />
+    <Resource Include="Assets\11_number.bmp" />
+    <Resource Include="Assets\12_number.bmp" />
+    <Resource Include="Assets\14_number.bmp" />
+    <Resource Include="Assets\15_number.bmp" />
     <Resource Include="Assets\1_number.bmp" />
     <Resource Include="Assets\2_number.bmp" />
     <Resource Include="Assets\3_number.bmp" />
@@ -30,6 +41,7 @@
     <Resource Include="Assets\6_number.bmp" />
     <Resource Include="Assets\7_number.bmp" />
     <Resource Include="Assets\8_number.bmp" />
+    <Resource Include="Assets\9_number.bmp" />
   </ItemGroup>
 
 </Project>
