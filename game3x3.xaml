@@ -38,5 +38,19 @@
             <Image x:Name="Image8" Source="pack://application:,,,/Assets/8_number.bmp" Grid.Row="2" Grid.Column="1" AllowDrop="False" Drop="Image_Drop" MouseMove="Image_MouseMove" />
             <Image x:Name="Image0" Source="pack://application:,,,/Assets/0_number.bmp" Grid.Row="2" Grid.Column="2" AllowDrop="True" Drop="Image_Drop" MouseMove="Image_MouseMove"/>
         </Grid>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2" Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0,0,0,35">
+
+            <Button x:Name="homeknop" Content="🏠" Width="50" Height="50" Margin="10"/>
+            <Button x:Name="scoreknop" Content="📊" Width="50" Height="50" Margin="10"/>
+            <Button x:Name="uitlegknop" Content="?" Width="50" Height="50" Margin="10"/>
+        </StackPanel>
+
+
+
     </Grid>
 </Window>
