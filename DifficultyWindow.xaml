@@ -32,12 +32,7 @@
                     Foreground="White"
                     Margin="30"/>
 
-            <Button x:Name="knop5x5" Content="5 x 5"
-                    Width="120" Height="60"
-                    FontSize="30"
-                    Background="#A47148"
-                    Foreground="White"
-                    Margin="30"/>
+
         </StackPanel>
         
         <!--onderbalk met iconknoppen-->

@@ -25,7 +25,7 @@ namespace Gameinteraction_groep1
 
             knop3x3.Click += knop3x3methode;               // verbind knopen aan methoden, zodat je op deze knop klikt, wordt deze methode gestart.
             knop4x4.Click += knop4x4methode;
-            knop5x5.Click += knop5x5methode;
+
 
             homeknop.Click += homeknopmethode;
             scoreknop.Click += scoreknopmethode;
@@ -35,7 +35,7 @@ namespace Gameinteraction_groep1
 
         private void knop3x3methode (object sender, RoutedEventArgs e)    //knop3x3methode
         {
-            GameWindow3x3 game3x3 = new GameWindow3x3 ();         // GameWindow3x3 later vervangen met echt vensternaam,  variabelnaam die zelf kan kiezen,  new + vensternaam.
+            MainWindow game3x3 = new MainWindow ();         // GameWindow3x3 later vervangen met echt vensternaam,  variabelnaam die zelf kan kiezen,  new + vensternaam.
             game3x3.Show();               // opent dat venster
             this.Close ();
         }
@@ -47,17 +47,11 @@ namespace Gameinteraction_groep1
             this.Close();
         }
 
-        private void knop5x5methode(object sender, RoutedEventArgs e)    //knop5x5methode
-        {
-            GameWindow5x5 game5x5 = new GameWindow5x5();
-            game5x5.Show();
-            this.Close();
-        }
 
         private void homeknopmethode (object sender, RoutedEventArgs e)    //homeknopmethode
         {
             menuwindow terugnaarhome = new menuwindow;
-            terugnaarhome4.Show();
+            terugnaarhome.Show();
             this.Close();
         }
 

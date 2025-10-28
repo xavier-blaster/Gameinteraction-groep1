@@ -100,7 +100,7 @@ namespace Gameinteraction_groep1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Gameinteraction-groep1;V1.0.0.0;component/scoreboardwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Gameinteraction-groep1;component/scoreboardwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ScoreboardWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
