@@ -5,7 +5,7 @@
     <Compile Update="DifficultyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ScoreboardWindow.xaml.cs">
+    <Compile Update="game3x3.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

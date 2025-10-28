@@ -1,0 +1,101 @@
+﻿<Window x:Class="Gameinteraction_groep1.ScoreboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Scorebord"
+        Height="450" Width="800"
+        Background="#F4C99B">
+
+    <Grid>
+
+        <!-- Titel -->
+        <Label Content="Scorebord"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               FontSize="40"
+               FontWeight="Bold"
+               Margin="0,15,0,0"/>
+
+        <!-- Bruine tabel-box -->
+        <Grid HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Width="300" Height="300"
+              Background="#A47148"
+              Margin="0,60,0,20">
+
+            <!-- 2 rijen: header + data -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="203*"/>
+                <RowDefinition Height="57*"/>
+            </Grid.RowDefinitions>
+
+            <!-- 2 kolommen: Tijd | Difficulty -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Header rij -->
+            <TextBlock Text="Tijd"
+                       Grid.Row="0" Grid.Column="0"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Left"
+                       Margin="10,5,0,5"/>
+
+            <TextBlock Text="Difficulty"
+                       Grid.Row="0" Grid.Column="1"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Left"
+                       Margin="10,5,0,5"/>
+
+            <TextBlock Text="Datum"
+                       Grid.Row="0" Grid.Column="2"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Left"
+                       Margin="10,5,0,5"/>
+
+
+
+            <!-- Data rij(en) -->
+            <!-- dit is placeholder data. Later kan dit echte tijden zijn -->
+            <StackPanel
+            Grid.ColumnSpan="3"
+            Margin="10,30,0,0" Grid.RowSpan="3">
+
+
+               <TextBlock x:Name="regel1"
+               Text="03:10                      3x3                        27/10/2025"
+               Foreground="White"
+               Margin="0,2,0,2"/>
+
+                <TextBlock x:Name="regel2"
+                Text="06:13                      4x4                        27/10/2025"
+                Foreground="White"
+                Margin="0,2,0,2"/>
+
+                <TextBlock x:Name="regel3"
+                Text="02:12                      3x3                        27/10/2025"
+                Foreground="White"
+                Margin="0,2,0,2"/>
+
+
+            </StackPanel>
+
+        </Grid>
+
+        <!-- Onderste icon-knoppen -->
+        <StackPanel Orientation="Horizontal"
+             HorizontalAlignment="Right"
+             VerticalAlignment="Bottom"
+             Margin="0,0,15,15">
+
+            <Button x:Name="homeknop" Content="🏠" Width="30" Height="30" Margin="5"  />
+            <Button x:Name="scoreknop" Content="📊" Width="30" Height="30" Margin="5" />
+            <Button x:Name="uitlegknop" Content="?" Width="30" Height="30" Margin="5" />
+        </StackPanel>
+    </Grid>
+</Window>
