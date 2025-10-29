@@ -13,6 +13,7 @@
     <None Remove="Assets\10_number.bmp" />
     <None Remove="Assets\11_number.bmp" />
     <None Remove="Assets\12_number.bmp" />
+    <None Remove="Assets\13_number.bmp" />
     <None Remove="Assets\14_number.bmp" />
     <None Remove="Assets\15_number.bmp" />
     <None Remove="Assets\1_number.bmp" />
@@ -31,6 +32,7 @@
     <Resource Include="Assets\10_number.bmp" />
     <Resource Include="Assets\11_number.bmp" />
     <Resource Include="Assets\12_number.bmp" />
+    <Resource Include="Assets\13_number.bmp" />
     <Resource Include="Assets\14_number.bmp" />
     <Resource Include="Assets\15_number.bmp" />
     <Resource Include="Assets\1_number.bmp" />

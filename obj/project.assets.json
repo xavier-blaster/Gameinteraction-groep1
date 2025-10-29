@@ -8,24 +8,19 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yekai\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\anouk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yekai\\Source\\Repos\\Gameinteraction-groep1new3\\PuzzelGame.csproj",
+      "projectUniqueName": "C:\\Users\\anouk\\Gameinteraction-groep1\\PuzzelGame.csproj",
       "projectName": "PuzzelGame",
-      "projectPath": "C:\\Users\\yekai\\Source\\Repos\\Gameinteraction-groep1new3\\PuzzelGame.csproj",
-      "packagesPath": "C:\\Users\\yekai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yekai\\Source\\Repos\\Gameinteraction-groep1new3\\obj\\",
+      "projectPath": "C:\\Users\\anouk\\Gameinteraction-groep1\\PuzzelGame.csproj",
+      "packagesPath": "C:\\Users\\anouk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anouk\\Gameinteraction-groep1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\yekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\anouk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -76,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,22 +8,15 @@ using System.Windows.Threading;
 
 namespace PuzzelGame
 {
-    public partial class game3x3 : Window
+    public partial class game4x4 : Window
     {
         public DispatcherTimer dispatcherTimer;
         public int elapsedSeconds = 0;
         public Random random = new Random();
 
-
-
-        public game3x3()
+        public game4x4()
         {
             InitializeComponent();
-
-            homeknop.Click += homeknopmethode;
-            scoreknop.Click += scoreknopmethode;
-            uitlegknop.Click += uitlegknopmethode;
-
             RandomizeImages();
             StartTimer();
         }
@@ -46,9 +39,10 @@ namespace PuzzelGame
         {
             var images = new List<Image>
             {
-                Image1, Image2, Image3,
-                Image4, Image5, Image6,
-                Image7, Image8, Image0
+                Image1, Image2, Image3, Image4,
+                Image5, Image6, Image7, Image8,
+                Image9, Image10, Image11, Image12,
+                Image13, Image14, Image15, Image0
             };
 
             // Randomizer dmv Fisher-Yates Algo
@@ -61,9 +55,9 @@ namespace PuzzelGame
             }
 
             int index = 0;
-            for (int row = 0; row < 3; row++)
+            for (int row = 0; row < 4; row++)
             {
-                for (int col = 0; col < 3; col++)
+                for (int col = 0; col < 4; col++)
                 {
                     Grid.SetRow(images[index], row);
                     Grid.SetColumn(images[index], col);
@@ -89,12 +83,12 @@ namespace PuzzelGame
 
         private bool IsComplete()
         {
-            string[] correctOrder = { "Image1", "Image2", "Image3", "Image4", "Image5", "Image6", "Image7", "Image8", "Image0" };
+            string[] correctOrder = { "Image1", "Image2", "Image3", "Image4", "Image5", "Image6", "Image7", "Image8", "Image9", "Image10", "Image11", "Image12", "Image13", "Image14", "Image15", "Image0" };
 
             int index = 0;
-            for (int row = 0; row < 3; row++)
+            for (int row = 0; row < 4; row++)
             {
-                for (int col = 0; col < 3; col++)
+                for (int col = 0; col < 4; col++)
                 {
                     Image image = GetImageAt(row, col);
                     if (image == null || image.Name != correctOrder[index])
@@ -157,8 +151,7 @@ namespace PuzzelGame
                 this.Close();
             }
         }
-
-            private void homeknopmethode(object sender, RoutedEventArgs e)    //homeknopmethode
+        private void homeknopmethode(object sender, RoutedEventArgs e)    //homeknopmethode
         {
             MainWindow terugnaarhome = new MainWindow();
             terugnaarhome.Show();
@@ -179,7 +172,5 @@ namespace PuzzelGame
             terugnaaruitleg.Show();
             this.Close();
         }
-
-    
     }
 }

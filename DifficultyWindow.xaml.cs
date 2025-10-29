@@ -25,7 +25,7 @@ namespace PuzzelGame
             InitializeComponent();
 
             knop3x3.Click += knop3x3methode;               // verbind knopen aan methoden, zodat je op deze knop klikt, wordt deze methode gestart.
-            //knop4x4.Click += knop4x4methode;
+            knop4x4.Click += knop4x4methode;
 
 
             homeknop.Click += homeknopmethode;
@@ -41,12 +41,12 @@ namespace PuzzelGame
             this.Close();
         }
 
-        //private void knop4x4methode(object sender, RoutedEventArgs e)    //knop4x4methode
-        //{
-        //    GameWindow4x4 game4x4 = new GameWindow4x4();
-        //    game4x4.Show();
-        //    this.Close();
-        //}
+        private void knop4x4methode(object sender, RoutedEventArgs e)    //knop4x4methode
+        {
+            game4x4 game4x4 = new game4x4();
+            game4x4.Show();
+            this.Close();
+        }
 
 
         private void homeknopmethode(object sender, RoutedEventArgs e)    //homeknopmethode
