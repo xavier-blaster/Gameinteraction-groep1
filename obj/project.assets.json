@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gameinteraction-groep1\\Gameinteraction-groep1.csproj",
-      "projectName": "Gameinteraction-groep1",
-      "projectPath": "C:\\Gameinteraction-groep1\\Gameinteraction-groep1.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Gameinteraction-groep1\\PuzzelGame.csproj",
+      "projectName": "PuzzelGame",
+      "projectPath": "C:\\Users\\Administrator\\Gameinteraction-groep1\\PuzzelGame.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Gameinteraction-groep1\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Gameinteraction-groep1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

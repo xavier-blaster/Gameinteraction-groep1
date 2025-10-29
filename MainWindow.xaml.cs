@@ -9,16 +9,27 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Gameinteraction_groep1
+namespace PuzzelGame
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class Main : Window
     {
-        public MainWindow()
+        public Main()
         {
             InitializeComponent();
+        }
+
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+            DifficultyWindow DifficultyWindow = new DifficultyWindow();
+            DifficultyWindow.Show();
+            this.Close();
+        }
+
+        private void Scoreboard_Click(object sender, RoutedEventArgs e)
+        {
+            ScoreboardWindow ScoreboardWindow = new ScoreboardWindow();
+            ScoreboardWindow.Show();
+            this.Close();
         }
     }
 }

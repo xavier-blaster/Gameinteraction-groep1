@@ -1,0 +1,5 @@
+C:\Users\anouk\source\repos\Puzzle 1.1\Puzzle 1.1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\anouk\source\repos\Puzzle 1.1\Puzzle 1.1\obj\Debug\net8.0-windows\View\Usercontrol\Puzzel.g.cs
+C:\Users\anouk\source\repos\Puzzle 1.1\Puzzle 1.1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\anouk\source\repos\Puzzle 1.1\Puzzle 1.1\obj\Debug\net8.0-windows\Puzzle 1.1_MarkupCompile.cache
+C:\Users\anouk\source\repos\Puzzle 1.1\Puzzle 1.1\obj\Debug\net8.0-windows\Puzzle 1.1_MarkupCompile.lref
